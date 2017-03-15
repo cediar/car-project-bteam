@@ -20,7 +20,7 @@
             <th>Precio</th>
             <th>Editar</th>
         </tr>
-        <c:forEach items="${Coche}" var="coche">
+        <c:forEach items="${coches}" var="coche">
             <tr>
                 
                 <td><c:out value="${coche.matricula}"></c:out></td>
@@ -33,6 +33,6 @@
             </tr>
         </c:forEach>
     </table>
-    <a href="crear.jsp" >Crear coche</a>
+    <a href="add" >Crear coche</a>
 </body>
 </html>
