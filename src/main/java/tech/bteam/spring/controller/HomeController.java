@@ -1,4 +1,4 @@
-package tech.bteam.spring;
+package tech.bteam.spring.controller;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -28,7 +28,7 @@
 			       <prop key="eclipselink.weaving">false</prop>
 			     </props>
 	   		</property>
-		    <property name="packagesToScan" value="tech.bteam.spring.model"/>
+		    <property name="packagesToScan" value="tech.bteam.spring.controller.model"/>
 		</bean>
 	
 		<!-- Configure the transaction manager bean -->
@@ -39,5 +39,5 @@
 		 <!-- Enable annotation driven transaction management -->
 		 <tx:annotation-driven/>
 	
-		 <jpa:repositories base-package="tech.bteam.spring.repository" />
+		 <jpa:repositories base-package="tech.bteam.spring.controller.repository" />
 </beans>
