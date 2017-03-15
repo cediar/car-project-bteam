@@ -12,7 +12,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name="coches")
-@NamedQuery(name="Car.findAll", query="SELECT c FROM Car c")
+
 public class Car implements Serializable {
 	private static final long serialVersionUID = 1L;
 

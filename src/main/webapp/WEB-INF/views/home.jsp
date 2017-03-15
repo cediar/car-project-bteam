@@ -8,7 +8,7 @@
 <h1>
 	Hello world!  
 </h1>
-
+<h2>  Actualmente hay registrados ${cars} en BBDD. </h2>
 <P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>
