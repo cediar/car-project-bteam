@@ -16,8 +16,16 @@ public class CarService {
     CarRepository carRepository;
     
     @Transactional
-    public List <Car> getCoche(){
+    public List <Car> getCoches(){
         return carRepository.findAll();
     }
-
+    @Transactional
+	public void saveCar(Car car) {
+		carRepository.save(car);
+		
+	}
+	 @Transactional
+	 public Car findCar(String matricula){
+		 return carRepository.getCarByMatricula(matricula);
+	 }
 }

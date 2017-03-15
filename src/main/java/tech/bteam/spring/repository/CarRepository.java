@@ -9,4 +9,6 @@ import tech.bteam.spring.model.Car;
 @Repository
 public interface CarRepository extends JpaRepository<Car, String> {
 
+	Car getCarByMatricula(String matricula);
+	
 }
